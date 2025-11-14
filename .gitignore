@@ -1,0 +1,44 @@
+# Dependency directories
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-error.log*
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Build artifacts
+build/
+dist/
+out/
+es/
+lib/
+tmp/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Test results
+coverage/
+.nyc_output/
+
+# Miscellaneous
+*.log
+*.tgz
+*.zip
+*.rar
+*.7z
+*.swp
